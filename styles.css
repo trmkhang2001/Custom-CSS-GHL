@@ -139,3 +139,16 @@
     display: block;
     text-indent: 0
 }
+
+/* sb_launchpad */
+#sb_launchpad span {
+    text-indent: -999999999px;
+    line-height: 0;
+}
+
+#sb_launchpad span::after {
+    content: "Hoàn Thiện";
+    line-height: initial;
+    display: block;
+    text-indent: 0
+}
