@@ -61,3 +61,81 @@
     display: block;
     text-indent: 0
 }
+
+/* sb_calendars */
+#sb_calendars span {
+    text-indent: -999999999px;
+    line-height: 0;
+}
+
+#sb_calendars span::after {
+    content: "Lịch Hẹn";
+    line-height: initial;
+    display: block;
+    text-indent: 0
+}
+
+/* sb_dashboard */
+#sb_dashboard span {
+    text-indent: -999999999px;
+    line-height: 0;
+}
+
+#sb_dashboard span::after {
+    content: "Bảng Điều Khiển";
+    line-height: initial;
+    display: block;
+    text-indent: 0
+}
+
+/* sb_memberships */
+#sb_memberships span {
+    text-indent: -999999999px;
+    line-height: 0;
+}
+
+#sb_memberships span::after {
+    content: "Khoá Học/ Cộng Đồng";
+    line-height: initial;
+    display: block;
+    text-indent: 0
+}
+
+/* sb_sites */
+#sb_sites span {
+    text-indent: -999999999px;
+    line-height: 0;
+}
+
+#sb_sites span::after {
+    content: "Website/ Phễu";
+    line-height: initial;
+    display: block;
+    text-indent: 0
+}
+
+/* sb_reputation */
+#sb_reputation span {
+    text-indent: -999999999px;
+    line-height: 0;
+}
+
+#sb_reputation span::after {
+    content: "Quản Lý Reviews";
+    line-height: initial;
+    display: block;
+    text-indent: 0
+}
+
+/* sb_reporting */
+#sb_reporting span {
+    text-indent: -999999999px;
+    line-height: 0;
+}
+
+#sb_reporting span::after {
+    content: "Báo Cáo";
+    line-height: initial;
+    display: block;
+    text-indent: 0
+}
