@@ -168,3 +168,7 @@
     display: block;
     text-indent: 0
 }
+
+#hl_header--help-icon {
+    display: none !important;
+}
