@@ -140,7 +140,7 @@
     text-indent: 0
 }
 
-/* sb_launchpad */
+/* sb_launchpad
 #sb_launchpad span {
     text-indent: -999999999px;
     line-height: 0;
@@ -151,6 +151,9 @@
     line-height: initial;
     display: block;
     text-indent: 0
+} */
+#sb_launchpad {
+    display: none !important;
 }
 
 /* sb_app-media */
