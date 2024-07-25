@@ -172,3 +172,7 @@
 #hl_header--help-icon {
     display: none !important;
 }
+
+.hl_login--header .container-fluid a {
+    display: none !important;
+}
