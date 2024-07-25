@@ -1,3 +1,9 @@
+:root {
+    --hlpt-header-note: '';
+    --hlpt-header-note-color: #363636;
+    --hlpt-login-logo: url('https://msgsndr-private.storage.googleapis.com/companyPhotos/3936fff3-0432-4b9d-bb62-46bf54ab8360.png');
+}
+
 #sb_payments span {
     text-indent: -999999999px;
     line-height: 0;
@@ -174,11 +180,50 @@
 }
 
 .hl_login--body .login-card-heading h2.heading2:after {
-    content: "Đăng Nhập Vào Tài Khoản";
+    content: var(--hlpt-header-note);
     line-height: 1.5;
     font-size: 12px;
     display: block;
     margin-top: 20px;
     margin-bottom: -20px;
     color: var(--hlpt-header-note-color);
+}
+
+.hl_login--body .card .login-card-heading h2.heading2:before {
+    content: '';
+    background-image: var(--hlpt-login-logo);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    display: block;
+    margin: 0 auto 20px;
+    width: 200px;
+    height: 75px;
+    left: 0;
+    right: 0;
+}
+
+.hl_login--body .card .login-card-heading h2.heading2:before {
+    width: auto;
+    height: 115px;
+    margin: 0 auto !important;
+    bottom: 20px !important;
+}
+
+.hl_login--body .card .login-card-heading h2.heading2:before {
+    display: none !important;
+}
+
+@media only screen and (max-width: 480px) {
+    .hl_login--body .card .login-card-heading h2.heading2::before {
+        margin: 0px auto 30px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .hl_login--body .card .login-card-heading h2.heading2:before {
+        width: auto;
+        height: 90px;
+    }
 }
